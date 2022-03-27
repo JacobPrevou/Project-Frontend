@@ -8,10 +8,7 @@ function Navbar() {
       <Link to="/">Fighters Page</Link>
     </li>
     <li>
-      <Link to="/cats">Add Fighter Form</Link>
-    </li>
-    <li>
-      <Link to="/sheeps">3rd Route</Link>
+      <Link to="/FightersForm">Add Fighter Form</Link>
     </li>
   </div>
   );

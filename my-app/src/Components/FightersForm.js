@@ -1,6 +1,6 @@
 import React from "react";
 
-function FightersForm() {
+function FightersForm({ onAddFighter }) {
 
     return (
 

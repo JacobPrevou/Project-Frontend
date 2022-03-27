@@ -25,7 +25,6 @@ function App() {
       <Navbar />
       <Switch>
         <Route path='/' exact component={FightersPage} />
-        <Route path='/FightersForm' component={FightersForm} />
       </Switch>
     </BrowserRouter>
     // <div className="App">

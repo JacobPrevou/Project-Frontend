@@ -1,7 +1,7 @@
 import React from "react";
 import FighterCard from "./FighterCard";
 
-function FightersList({ fighters }) {
+function FavoriteFightersList({ fighters }) {
 
 
   return (
@@ -11,4 +11,4 @@ function FightersList({ fighters }) {
   );
 }
 
-export default FightersList;
+export default FavoriteFightersList;

@@ -1,0 +1,67 @@
+{
+    "fighters": [
+      {
+        "id": 1,
+        "name": "Tony Ferguson",
+        "image": "./images/ferguson.png",
+        "record": "26-6-0",
+        "division": "Lightweight (155lbs)"
+      },
+      {
+        "id": 2,
+        "name": "Conor McGregor",
+        "image": "./images/mcgregor.png",
+        "record": "22-6-0",
+        "division": "Lightweight (155lbs)"
+      },
+      {
+        "id": 3,
+        "name": "Valentina Shevchenko",
+        "image": "./images/shevchenko.png",
+        "record": "22-3-0",
+        "division": "Flyweight (125lbs)"
+      },
+      {
+        "id": 4,
+        "name": "Jon Jones",
+        "image": "./images/jones.png",
+        "record": "26-1-0",
+        "division": "Light Heavyweight (205lbs)"
+      },
+      {
+        "id": 5,
+        "name": "Khabib Nurmagomedov",
+        "image": "./images/khabib.png",
+        "record": "29-0-0",
+        "division": "Lightweight (155lbs)"
+      },
+      {
+        "id": 6,
+        "name": "Anderson Silva",
+        "image": "./images/silva.png",
+        "record": "34-11-0",
+        "division": "Middleweight (185lbs)"
+      },
+      {
+        "id": 7,
+        "name": "Chael Sonnen",
+        "image": "./images/sonnen.png",
+        "record": "49-0-0",
+        "division": "Middleweight (185lbs)"
+      },
+      {
+        "id": 8,
+        "name": "Little Green Men",
+        "image": "http://www.pngmart.com/files/3/Toy-Story-Alien-PNG-File.png",
+        "record": "22-3-0",
+        "division": ""
+      },
+      {
+        "id": 9,
+        "name": "Robert Whittaker",
+        "image": "",
+        "record": "26-0-0",
+        "division": "Middleweight"
+      }
+    ]
+  }

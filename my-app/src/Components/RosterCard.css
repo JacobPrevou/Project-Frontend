@@ -1,0 +1,20 @@
+.rosterCard {
+    margin: 60px 30px;
+    display: inline-block;
+    background-color: crimson;
+    box-shadow: 0 5px 6px 0 rgba(0, 0, 0, 0.5), 0 3px 20px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: black;
+}
+
+.cardHeader {
+  text-align: center;
+  margin-bottom: 0%;
+  font-family: 'Bungee Shade', cursive;
+  font-size: 1.5rem;
+  
+}
+
+.cardBody {
+  padding: 10px 10px;
+  font-family: 'Bungee', cursive;
+}

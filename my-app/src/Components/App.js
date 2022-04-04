@@ -91,29 +91,3 @@ function App() {
 
 export default App;
 
-/* <BrowserRouter>
-<Navbar />
-<Routes>
-  <Route path="/FightersPage" element={<FightersPage />}>
-    <FightersPage fighters={fighters} onAddFighter={handleAddFighter} />
-  </Route>
-  <Route path="/FightersForm" element={<FightersForm />}>
-    <FightersForm />
-  </Route>
- 
-</Routes>
-</BrowserRouter> */
-
-
-/* <Routes>
-  <Route path='/' exact component={FightersPage}>
-    <FightersPage />
-  <Route path='/FightersForm' component={FightersForm} >
-    <FightersForm />
-</Routes> */
-
-// <div className="App">
-    //   <Navbar />
-    //   <Header />
-    //   <FightersPage fighters={fighters} />
-    // </div>

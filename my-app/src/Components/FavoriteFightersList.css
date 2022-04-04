@@ -1,11 +1,5 @@
-/* .ffbox {
-    display: flex;
-    align-items: stretch;
-    justify-content:space-evenly;
-    flex-direction: column;
-} */
 
-.ffbox {
+/* .ffbox {
     background: repeating-linear-gradient(
         -55deg,
         #222,
@@ -13,7 +7,7 @@
         #333 10px,
         #333 20px
     );
-}
+} */
 
 .ffcards {
     margin: 60px 30px 30px 30px;
@@ -29,6 +23,7 @@
 }
 
 .card {
+    display: inline-block;
     margin: 60px 60px;
     background-color: crimson;
     height: 50%;
@@ -37,13 +32,40 @@
     box-shadow: black;
 }
 
-.box {
-    display: contents;
-    align-content: center;
+.delete {
+    display: inline-block;
+    float: right;
+    margin:5px 5px 0 0;
+    top: 0;
+    right: 0;
 }
 
+.name {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 0%;
+    font-family: 'Bungee Shade', cursive;
+}
+
+
+.cardBody {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
 .image {
+    align-self: center;
     max-height: 50%;
     max-width: 50%;
-    padding: 15% 0 0 0 ;
+    padding: 2% 0 0 0 ;
+    margin-bottom: 1%;
+}
+
+.input {
+    margin: 5px 5px 5px 5px;
+    text-align: center;
+    font-family: 'Bungee', cursive;
+    opacity:inherit;
 }

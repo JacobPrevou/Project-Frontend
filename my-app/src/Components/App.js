@@ -14,9 +14,15 @@ import "./FavoriteFightersList.css"
 function App() {
   const [fighters, setFighters] = useState([]);
   
-  //POST request
+  //POST fighter function
   function handleAddFighter(newFighter) {
     setFighters([...fighters, newFighter]);
+  }
+
+  //DELETE fighter function (filter fighters array, update state)
+  function handleDeleteFighter(deletedFighter) {
+    const updatedFighters = fighters.filter((fighter) => fighter.id !== deletedFighter.id);
+    setFighters(updatedFighters);
   }
 
 
@@ -62,17 +68,21 @@ function App() {
 
         <Routes>
           <Route path="/" element={<Home/>}>
-            
           </Route>
+
           <Route path="/FightersPage" element={<FightersPage/>}>
-            
           </Route>
-          <Route path="/FavoriteFightersList" element={<FavoriteFightersList fighters={fighters} onUpdateFighter={handleUpdateFighter} />}>
-            
+
+          <Route path="/FavoriteFightersList" 
+          element={<FavoriteFightersList 
+          fighters={fighters} 
+          onUpdateFighter={handleUpdateFighter} 
+          onDeleteFighter={handleDeleteFighter} />}>
           </Route>
+
           <Route path="/FightersForm" element={<FightersForm onAddFighter={handleAddFighter}/>}>
-            
           </Route>
+
         </Routes>
       </div>
     </Router>

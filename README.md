@@ -6,5 +6,5 @@ fighter stats (significant strike percentage, takedown accuracy, etc.) and submi
 
 ## Navigation
 
-![Add Fighter Form](images/add_fighter_form_screenshot.png)
+![Add Fighter Form]("\\wsl$\Ubuntu\home\jake\Development\code\phase2\Project-Frontend\my-app\public\images\add_fighter_form_screenshot.jpg")
 

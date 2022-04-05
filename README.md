@@ -46,11 +46,19 @@ In order for users to submit chosen fighters to the "Favorite Fighters List" and
 
 ![Add Fighter Form](my-app/public/images/add_fighter_form_screenshot.png)
 
+
 - Change a fighter's record (Wins-Losses-Draws) by typing changes into the input field located under each Favorite Fighter's image, initiating a **PATCH** request
 
 ![Change Fighter Record](my-app/public/images/favFighterScreenshot.png)
 
+
 - Delete a fighter from the favorites list simply by clicking the [X] button on a card, initiating a DELETE request
+
+## Search UFC roster
+This feature is very straightforward. On the Fighters Page (roster page) the user can find a list of every fighter who has ever competed in the UFC and search for them by name to find that fighter's stats. If you want to know which fighter to bet on before a bout, this can be a very usueful tool.
+
+![Change Fighter Record](my-app/public/images/rosterSearch.png)
+
 
 
 ## Styling: CSS

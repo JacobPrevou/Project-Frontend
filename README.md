@@ -6,5 +6,5 @@ fighter stats (significant strike percentage, takedown accuracy, etc.) and submi
 
 ## Navigation
 
-![Add Fighter Form](React Project Images\add_fighter_form_screenshot.jpg)
+![Add Fighter Form](images/add_fighter_form_screenshot.png)
 

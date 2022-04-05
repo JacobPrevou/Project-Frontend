@@ -6,4 +6,6 @@ fighter stats (significant strike percentage, takedown accuracy, etc.) and submi
 
 ## Installation
 
-![Add Fighter Form](/my-app/public/images/add_fighter_form_screenshot.png)
+![Add Fighter Form](images/add_fighter_form_screenshot.png)
+
+

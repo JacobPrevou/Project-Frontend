@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 // import { render } from 'react-router'
-// import './index.css';
+import './index.css';
+import './App.css';
 import App from "./Components/App";
 import reportWebVitals from './reportWebVitals';
 

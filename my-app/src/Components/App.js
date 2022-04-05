@@ -4,11 +4,12 @@ import Home from './Home';
 import FightersPage from './FightersPage';
 import FightersForm from './FightersForm';
 import FavoriteFightersList from './FavoriteFightersList';
-// import logo from './logo.svg';
 import '../App.css';
+import "./Home.css";
 import './FightersPage.css';
 import "./RosterCard.css";
-import "./FavoriteFightersList.css"
+import "./FavoriteFightersList.css";
+import "./FightersForm.css";
 
 
 function App() {
@@ -48,7 +49,7 @@ function App() {
 
   return (
     <Router>
-      <div>
+      <div className="appRoot">
         <nav className="navBox">
           <ul className="navMenu">
             <li className="navMenuItem">

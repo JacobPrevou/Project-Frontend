@@ -21,13 +21,17 @@ a {
   color: goldenrod;
 }
 
-/* .navBox {
-  padding: 5%;
-  display: flex;
-  flex-flow: nowrap;
-  align-content: center;
-
-} */
+.appRoot {
+  height: 100vh;
+  background: repeating-linear-gradient(
+        -55deg,
+        #222,
+        #222 10px,
+        #333 10px,
+        #333 20px
+    );overflow: auto;
+  
+}
 
 .navMenu {
   display: flex;
@@ -43,10 +47,13 @@ a {
   text-align: center;
 }  
 
-/* ul li {
-  display: inline-block;
-} */
 
 ul li:not(:last-child) {
   border-right: 1px solid black;
+}
+
+.ffbox {
+  display: flex;
+  align-items: stretch;
+  justify-content:space-evenly;
 }

@@ -7,6 +7,7 @@ import Search from "./Search";
 
 
 
+
 function FightersPage() {
   const [name, setName] = useState('');
 
@@ -27,13 +28,15 @@ function FightersPage() {
     };
   
   return (
-    <div>
+    <div className="container">
         <Search onChange={filter} value={name}/>
-        <ul className="rosterCards">
-            {foundFighter.map((fighter) => (
-            <RosterCard key={fighter.id} fighter={fighter} />
-            ))}
-        </ul>
+        <div className="box">
+            <ul className="cards">
+                {foundFighter.map((fighter) => (
+                <RosterCard key={fighter.id} fighter={fighter} />
+                ))}
+            </ul>
+        </div>
     </div>
   );
 }

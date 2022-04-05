@@ -43,9 +43,11 @@ import {
 In order for users to submit chosen fighters to the "Favorite Fighters List" and to alter their records, I used a json-server to create a RESTful API. Unlike the historic roster which displays fighter statistics, the favorites list was made to include more descriptive/less analytical info, such as photos and weight classes. That data in db.json can be manipulated by the the user a number of ways with HTTP requests. Besides the initial GET request which grabs the data from db.json for display, a user may also:
 
 - Add a totally new fighter to the favorites list via submission of a controlled form ("Add a Fighter Form") which initiates a **POST** request
+
 ![Add Fighter Form](my-app/public/images/add_fighter_form_screenshot.png)
 
 - Change a fighter's record (Wins-Losses-Draws) by typing changes into the input field located under each Favorite Fighter's image, initiating a **PATCH** request
+
 ![Change Fighter Record](my-app/public/images/favFighterScreenshot.png)
 
 - Delete a fighter from the favorites list simply by clicking the [X] button on a card, initiating a DELETE request

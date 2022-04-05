@@ -4,8 +4,7 @@ Jake's Favorite Fighters is an application that allows users to search through t
 fighter stats (significant strike percentage, takedown accuracy, etc.) and submit a fighter form to build a 
 "favorite fighters list".
 
-## Installation
+## Navigation
 
-![Add Fighter Form](images/add_fighter_form_screenshot.png)
-
+![Add Fighter Form](React Project Images\add_fighter_form_screenshot.jpg)
 

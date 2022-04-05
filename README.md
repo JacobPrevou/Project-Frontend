@@ -6,6 +6,6 @@ fighter stats (significant strike percentage, takedown accuracy, etc.) and submi
 
 ## Navigation
 
-![Add Fighter Form](images.brewfinder/add_fighter_form_screenshot.png)
+![Add Fighter Form](/home/jake/Development/code/phase2/Project-Frontend/my-app/public/images/add_fighter_form_screenshot.png)
 
 <!-- "images.brewfinder\add_fighter_form_screenshot.png" -->

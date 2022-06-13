@@ -13,6 +13,7 @@ function FightersPage() {
 
     const [foundFighter, setFoundFighter] = useState(roster);
 
+    
     const filter = (e) => {
       const keyword = e.target.value;
       if (keyword !== '') {

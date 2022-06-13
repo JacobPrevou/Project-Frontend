@@ -24,6 +24,7 @@ function FighterCard({ fighter, onUpdateFighter, onDeleteFighter }) {
 
 
   //DELETE request  
+
   function handleDeleteClick() {
     fetch(`http://localhost:3000/fighters/${fighter.id}`, {
     method: "DELETE",

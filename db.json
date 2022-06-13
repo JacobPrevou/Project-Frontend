@@ -1,34 +1,6 @@
 {
   "fighters": [
     {
-      "id": 1,
-      "name": "Tony Ferguson",
-      "image": "./images/ferguson.png",
-      "record": "26-6-0",
-      "division": "Lightweight (155lbs)"
-    },
-    {
-      "id": 2,
-      "name": "Conor McGregor",
-      "image": "./images/mcgregor.png",
-      "record": "22-6-0",
-      "division": "Lightweight (155lbs)"
-    },
-    {
-      "id": 3,
-      "name": "Valentina Shevchenko",
-      "image": "./images/shevchenko.png",
-      "record": "22-3-0",
-      "division": "Flyweight (125lbs)"
-    },
-    {
-      "id": 4,
-      "name": "Jon Jones",
-      "image": "./images/jones.png",
-      "record": "26-1-0",
-      "division": "Light Heavyweight (205lbs)"
-    },
-    {
       "id": 5,
       "name": "Khabib Nurmagomedov",
       "image": "./images/khabib.png",
@@ -50,11 +22,18 @@
       "division": "Middleweight (185lbs)"
     },
     {
-      "id": 9,
+      "id": 8,
       "name": "Robert Whittaker",
-      "image": "https://www.thesun.co.uk/wp-content/uploads/2021/04/7ccbb9df-8b60-44d9-bc8a-6a2463c2e023.jpg",
-      "record": "26-0-0",
-      "division": "Middleweight"
+      "image": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2021-04/69114%252Fprofile-galery%252Ffullbodyleft-picture%252FWHITTAKER_ROBERT_L_04-17.png?VersionId=null&itok=GOHxhvfd",
+      "record": "26-5-0",
+      "division": "Middleweight (185lbs)"
+    },
+    {
+      "id": 9,
+      "name": "Tony Ferguson",
+      "image": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2021-05/69408%252Fprofile-galery%252Ffullbodyleft-picture%252FFERGUSON_TONY_L_05-15.png?VersionId=null&itok=P1JFww1y",
+      "record": "26-4-0",
+      "division": "Lightweight (155lbs)"
     }
   ]
 }

@@ -2,7 +2,16 @@ import React from "react";
 import "./RosterCard.css";
 
 function RosterCard({ fighter }) {
+  // const [show, setShow] = useState(true);
 
+    
+  // <>
+  //   <button onClick={() => setShow(!show)}>
+  //     {show ? "Hide Element Below" : "Show Element Below"}
+  //   </button>
+
+  //   {show}
+  // </>
   
   return (
     <li className="rosterCard">

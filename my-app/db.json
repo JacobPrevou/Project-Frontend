@@ -1,0 +1,32 @@
+{
+  "fighters": [
+    {
+      "id": 5,
+      "name": "Khabib Nurmagomedov",
+      "image": "./images/khabib.png",
+      "record": "29-0-0",
+      "division": "Lightweight (155lbs)"
+    },
+    {
+      "id": 6,
+      "name": "Anderson Silva",
+      "image": "./images/silva.png",
+      "record": "34-11-0",
+      "division": "Middleweight (185lbs)"
+    },
+    {
+      "id": 7,
+      "name": "Chael Sonnen",
+      "image": "./images/sonnen.png",
+      "record": "49-0-0",
+      "division": "Middleweight (185lbs)"
+    },
+    {
+      "id": 8,
+      "name": "Robert Whittaker",
+      "image": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2021-04/69114%252Fprofile-galery%252Ffullbodyleft-picture%252FWHITTAKER_ROBERT_L_04-17.png?VersionId=null&itok=GOHxhvfd",
+      "record": "26-5-0",
+      "division": "Middleweight (185lbs)"
+    }
+  ]
+}

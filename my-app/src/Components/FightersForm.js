@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 
 function FightersForm({ onAddFighter }) {
+  // Initialize object
   const [formData, setFormData] = useState({
       id: 0,
       name: "",
@@ -15,25 +16,20 @@ function FightersForm({ onAddFighter }) {
           [e.target.name]: e.target.value,
       });
   }
-  //POST request    ////////////////////////////////////////
+  //POST request  ////////////////////////////////////////
   function handleSubmit(e) {
     e.preventDefault();
-    const fighterData = {
-      id: formData.id,
-      name: formData.name,
-      image: formData.image,
-      record: formData.record,
-      division: formData.division
-    };
-    fetch("http://localhost:3000/fighters", {
+    fetch("http://localhost:8000/fighters", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify(fighterData),
+      body: JSON.stringify(formData),
     })
     .then((r) => r.json())
-    .then((newFighter) => onAddFighter(newFighter));
+    .then((newFighter) => {
+      onAddFighter(newFighter);
+    });
   }
 
 

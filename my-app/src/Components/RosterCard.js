@@ -1,34 +1,25 @@
 import React from "react";
 import "./RosterCard.css";
 
-function RosterCard({ fighter }) {
-  // const [show, setShow] = useState(true);
+function RosterCard({ athlete }) {
 
-    
-  // <>
-  //   <button onClick={() => setShow(!show)}>
-  //     {show ? "Hide Element Below" : "Show Element Below"}
-  //   </button>
 
-  //   {show}
-  // </>
-  
   return (
     <li className="rosterCard">
-      <h4 className="cardHeader" >{fighter.name}</h4>
+      <h4 className="cardHeader" >{athlete.name}</h4>
       <div className="cardBody">
-        <p>Height: {fighter.Height}</p>
-        <p>Weight: {fighter.Weight}</p>
-        <p>Reach: {fighter.Reach}</p>
-        <p>Stance: {fighter.Stance}</p>
-        <p>Strikes Landed Per Minute: {fighter.StrikesLandedPerMin}</p>
-        <p>Strike Accuracy: {fighter.StrikeAccuracy}</p>
-        <p>Strikes Absorbed Per Minute: {fighter.StrikesAbsorbedPerMin}</p>
-        <p>Strike Defense: {fighter.StrikeDefense}</p>
-        <p>Takedown Avg: {fighter.TDAvg}</p>
-        <p>Takedown Accuracy: {fighter.TDAcc}</p>
-        <p>Takedown Defense: {fighter.TDDef}</p>
-        <p>Submission Avg: {fighter.SubAvg}</p>
+        <p>Height: {athlete.Height}</p>
+        <p>Weight: {athlete.Weight}</p>
+        <p>Reach: {athlete.Reach}</p>
+        <p>Stance: {athlete.Stance}</p>
+        <p>Strikes Landed Per Minute: {athlete.StrikesLandedPerMin}</p>
+        <p>Strike Accuracy: {athlete.StrikeAccuracy}</p>
+        <p>Strikes Absorbed Per Minute: {athlete.StrikesAbsorbedPerMin}</p>
+        <p>Strike Defense: {athlete.StrikeDefense}</p>
+        <p>Takedown Avg: {athlete.TDAvg}</p>
+        <p>Takedown Accuracy: {athlete.TDAcc}</p>
+        <p>Takedown Defense: {athlete.TDDef}</p>
+        <p>Submission Avg: {athlete.SubAvg}</p>
       </div>
     </li>
   );

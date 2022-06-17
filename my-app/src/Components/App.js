@@ -26,7 +26,6 @@ function App() {
     setFighters(updatedFighters);
   }
 
-
  //map a new "fighters" array to update a specific fighter's stats/pass; pass to FighterCard where PATCH req. is
   function handleUpdateFighter(updatedFighter) {
     const updateStats = fighters.map((fighter) => {
@@ -41,10 +40,11 @@ function App() {
 
   //GET request
   useEffect(() => {
-    fetch("http://localhost:3000/fighters")
+    fetch("http://localhost:8000/fighters")
       .then((r) => r.json())
       .then((fighters) => setFighters(fighters));
   }, []);
+  
   
 
   return (

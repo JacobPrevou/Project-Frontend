@@ -1,15 +1,14 @@
 import React from "react";
 
 function FighterCard({ fighter, onUpdateFighter, onDeleteFighter }) {
-  const { id, image, name, record, division } = fighter;
-
-
+  
   //PATCH request
   function handleStatChange(e) {
     const fighterData = {
-      record: e.target.value,
+      ...fighter,
+      [e.target.name]: e.target.value,
     };
-    fetch(`http://localhost:3000/fighters/${fighter.id}`, {
+    fetch(`http://localhost:8000/fighters/${fighter.id}`, {
       method: "PATCH",
       headers: {
         "Content-Type": "application/json",
@@ -22,11 +21,9 @@ function FighterCard({ fighter, onUpdateFighter, onDeleteFighter }) {
       .then((updatedStat) => onUpdateFighter(updatedStat));
   }
 
-
   //DELETE request  
-
   function handleDeleteClick() {
-    fetch(`http://localhost:3000/fighters/${fighter.id}`, {
+    fetch(`http://localhost:8000/fighters/${fighter.id}`, {
     method: "DELETE",
   })
     .then((r) => r.json())
@@ -36,13 +33,12 @@ function FighterCard({ fighter, onUpdateFighter, onDeleteFighter }) {
   return (
     <li className="card">
       <button className="delete" onClick={handleDeleteClick} >X</button> 
-      <h4 className="name">{name}</h4>
+      <h4 className="name">{fighter.name}</h4>
       <div className="cardBody">
-        <img className="image" src={image} alt={"fighter name"} />
+        <img className="image" src={fighter.image} alt={"fighter name"} />
         <input className="input" type="text" name="record" title="Wins-Losses-Draws" value={fighter.record} onChange={handleStatChange} />
-        <p className="record" >Record: {record}</p>
-        <p className="division">{
-        division}</p>
+        <p className="record" >Record: {fighter.record}</p>
+        <p className="division">{fighter.division}</p>
       </div>  
     </li>
   );
